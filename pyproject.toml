@@ -1,0 +1,13 @@
+[project]
+name = "reminder"
+version = "0.1.0"
+description = "TUI app for sending Telegram reminders"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "textual>=7.4.0",
+]
+
+[project.scripts]
+reminder = "reminder.app:main"

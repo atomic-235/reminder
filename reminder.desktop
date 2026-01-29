@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Reminder
+GenericName=Telegram Reminder TUI
+Comment=Schedule and send reminders via Telegram
+Exec=xdg-terminal-exec --app-id=TUI.tile -e /home/antonym/projects/personal/reminder/run.sh
+Path=/home/antonym/projects/personal/reminder
+Terminal=false
+Icon=/home/antonym/projects/personal/reminder/icon.svg
+Categories=Utility;
+Keywords=reminder;telegram;notification;meeting;

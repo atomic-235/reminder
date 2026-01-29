@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Ruff
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
